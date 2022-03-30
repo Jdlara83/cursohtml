@@ -1,0 +1,13 @@
+nav{
+    margin: 10px; 
+}
+.nav-enlace{
+   background: salmon;
+   color: aliceblue;
+   padding: 10px 30px;
+   display: inline-block;
+   text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
