@@ -1,6 +1,3 @@
-nav{
-    margin: 10px; 
-}
 .nav-enlace{
    background: salmon;
    color: aliceblue;
@@ -10,4 +7,9 @@ nav{
 }
 .nav-enlace:hover{
     background: rosybrown;
+}
+nav{
+    display: flex;
+    background: salmon;
+    width: 90%;
 }
