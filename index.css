@@ -1,21 +1,26 @@
-
+:root{
+    
+    --colorpri:#115571;
+    --colorhover:#10303d;;
+}       
 nav{
-    margin: 10px;
-    display: flex;
+display: flex;
 }
 
 .nav-enlace{
-   background: salmon;
+   background: var(--colorpri);
    color: aliceblue;
-   padding: 10px 30px;
+   padding: 20px 30px;
    display: inline-block;
    text-decoration: none;
 }
 .nav-enlace:hover{
-    background: rosybrown;
+    background: var(--colorhover);
 }
 nav{
     display: flex;
-    background: salmon;
-    width: 90%;
+    background: var(--colorpri);
+    justify-content: start;
+    width: 100%;
+    height: 4rem;
 }
