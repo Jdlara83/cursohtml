@@ -3,10 +3,6 @@
     --colorpri:#115571;
     --colorhover:#10303d;;
 }       
-nav{
-display: flex;
-}
-
 .nav-enlace{
    background: var(--colorpri);
    color: aliceblue;
@@ -17,10 +13,13 @@ display: flex;
 .nav-enlace:hover{
     background: var(--colorhover);
 }
-nav{
+header{
     display: flex;
     background: var(--colorpri);
-    justify-content: start;
+    justify-content: end;
     width: 100%;
     height: 4rem;
+}
+i{
+    padding: 10px;
 }
