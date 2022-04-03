@@ -16,7 +16,7 @@ background: var(--colorfondos);
    text-decoration: none;
    
 }
-.nav-enlace:hover{
+.nav-link:hover{
     background: var(--colorhover);
     border-radius: 3.2rem;
 }
