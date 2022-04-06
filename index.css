@@ -47,7 +47,7 @@ article{
 } 
 a{
     text-decoration: none;
-    background: var(--colorbotones);
+    background: var(--colorpri);
     color: var(--colorfondos);
     padding: .3em .5em;
     border-radius: 7rem;
