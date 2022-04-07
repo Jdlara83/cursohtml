@@ -61,6 +61,21 @@ article {
 }
 a {
   text-decoration: none;
+  background: var(--colorbotones);
+  color: var(--colorfondos);
+  padding: 0.3em 0.5em;
+  border-radius: 7rem;
+}
+article {
+  background: var(--colortextos);
+  margin: 0.3em;
+  padding: 0.7rem;
+  text-align: justify;
+  border: 1px solid rgb(188, 168, 168);
+  border-radius: 0.5em;
+}
+a {
+  text-decoration: none;
   background: var(--colorpri);
   color: var(--colorfondos);
   padding: 0.3em 0.5em;
