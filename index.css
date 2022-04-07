@@ -1,59 +1,56 @@
-:root{
-    --colorpri:#115571;
-    --colorfondos:#ffffff;
-    --colorhover:#10303d;
-    --colortextos:#f4f4f4;
-    --colorbotones:#028484;
+:root {
+  --colorpri: #115571;
+  --colorfondos: #ffffff;
+  --colorhover: #10303d;
+  --colortextos: #f4f4f4;
+  --colorbotones: #028484;
 }
-body{
-background: var(--colorfondos);
-}  
-.nav-enlace{
-   background: var(--colorpri);
-   color: var(--colortextos);
-   padding: .5em 1em;
-   display: inline-block;
-   text-decoration: none;
-   
+body {
+  background: var(--colorfondos);
 }
-.nav-link:hover{
-    background: var(--colorhover);
-    border-radius: 3.2rem;
+.nav-enlace {
+  background: var(--colorpri);
+  color: var(--colortextos);
+  padding: 0.5em 1em;
+  display: inline-block;
+  text-decoration: none;
 }
-header{
-    display: flex;
-    background: var(--colorpri);
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+.nav-link:hover {
+  background: var(--colorhover);
+  border-radius: 3.2rem;
 }
-i{
-    padding: .5em;
+header {
+  display: flex;
+  background: var(--colorpri);
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-.section-home{
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    padding: 1em;
-    margin: 2em;
+i {
+  padding: 0.5em;
 }
-article{
-    background: var(--colortextos);
-    margin: .3em;
-    padding: 0.7rem;
-    text-align: justify;
-    border: 1px solid rgb(188, 168, 168);
-    border-radius: .5em ;
-} 
-a{
-    text-decoration: none;
-    background: var(--colorpri);
-    color: var(--colorfondos);
-    padding: .3em .5em;
-    border-radius: 7rem;
+.section-home {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  padding: 1em;
+  margin: 2em;
 }
-article:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-   
+article {
+  background: var(--colortextos);
+  margin: 0.3em;
+  padding: 0.7rem;
+  text-align: justify;
+  border: 1px solid rgb(188, 168, 168);
+  border-radius: 0.5em;
 }
-
+a {
+  text-decoration: none;
+  background: var(--colorpri);
+  color: var(--colorfondos);
+  padding: 0.3em 0.5em;
+  border-radius: 7rem;
+}
+article:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
