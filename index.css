@@ -29,14 +29,13 @@ header {
 i {
   padding: 0.5em;
 }
-<<<<<<< HEAD
 .section-home {
   display: flex;
   justify-content: center;
   width: 75%;
   padding: 1em;
   margin: 2em;
-=======
+}
 article{
     background: var(--colortextos);
     margin: .3em;
@@ -51,7 +50,6 @@ a{
     color: var(--colorfondos);
     padding: .3em .5em;
     border-radius: 7rem;
->>>>>>> 6d9dc60c32a306ce6542d2def56a5f1cfef963c6
 }
 article {
   background: var(--colortextos);
