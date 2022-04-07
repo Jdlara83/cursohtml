@@ -29,29 +29,27 @@ header {
 i {
   padding: 0.5em;
 }
-<<<<<<< HEAD
 .section-home {
   display: flex;
   justify-content: center;
   width: 75%;
   padding: 1em;
   margin: 2em;
-=======
-article{
-    background: var(--colortextos);
-    margin: .3em;
-    padding: 0.7rem;
-    text-align: justify;
-    border: 1px solid rgb(188, 168, 168);
-    border-radius: .5em ;
-} 
-a{
-    text-decoration: none;
-    background: var(--colorbotones);
-    color: var(--colorfondos);
-    padding: .3em .5em;
-    border-radius: 7rem;
->>>>>>> 6d9dc60c32a306ce6542d2def56a5f1cfef963c6
+}
+article {
+  background: var(--colortextos);
+  margin: 0.3em;
+  padding: 0.7rem;
+  text-align: justify;
+  border: 1px solid rgb(188, 168, 168);
+  border-radius: 0.5em;
+}
+a {
+  text-decoration: none;
+  background: var(--colorbotones);
+  color: var(--colorfondos);
+  padding: 0.3em 0.5em;
+  border-radius: 7rem;
 }
 article {
   background: var(--colortextos);
